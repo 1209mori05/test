@@ -7,5 +7,4 @@ public interface Mp3Player {
 	public abstract void next();
 	public abstract void back();
 
-
 }
