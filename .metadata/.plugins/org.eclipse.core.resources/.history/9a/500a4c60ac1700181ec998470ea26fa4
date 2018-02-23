@@ -1,0 +1,12 @@
+package sample;
+
+public class sample_test {
+
+	public static void main(String[] args) {
+
+
+		String[] naame = {"田中","高橋","斎藤"};
+		System.out.println(name[2]);
+	}
+
+}

@@ -1,0 +1,14 @@
+package sample;
+
+public class sample_test {
+
+	public static void main(String[] args) {
+
+
+		int[]i = {1,5,10};
+		System.out.println(i[2]);
+
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package sample;
+
+public class sample_test {
+
+	public static void main(String[] args) {
+		System.out.println("テスト");
+		System.out.println(menseki(10));
+	}
+
+	public static double menseki(int hankei){
+		return hankei*hankei*3.14;
+	}
+
+
+}
+
+
+

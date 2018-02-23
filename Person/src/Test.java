@@ -7,7 +7,7 @@ public class Test {
 		taro.age = 20;
 		System.out.println(taro.name);
 		System.out.println(taro.age);
-		
+
 		//コンストラクタ2を使用
 		Person jiro = new Person("jiro",20);
 		System.out.println(jiro.name);
