@@ -1,0 +1,22 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		TestUserDAO dao = new TestUserDAO();
+
+		dao.select("taro","123");
+			System.out.print("\n");
+		dao.selectAll();
+			System.out.print("\n");
+		dao.selectByName("taro");
+			System.out.print("\n");
+		dao.selectByPassword("123");
+			System.out.print("\n");
+		dao.updateUserNameByUserName("taro","saburo");
+			System.out.print("\n");
+
+
+	}
+
+}
