@@ -1,0 +1,32 @@
+package sample_1;
+
+public class SampleTime {
+
+
+	public static void main(String[]args){
+		en(5);
+		en(7);
+		en(10);
+		System.out.println();
+		ryoukin(2,4);
+		ryoukin(1,5);
+		ryoukin(3,7);
+	}
+
+
+	public static void en(int h){
+		double menseki=h*h*3.14;
+		System.out.println("半径"+h+"㎝の円の面積は"+menseki+"㎠です");
+	}
+
+
+
+	public static void ryoukin(int otona,int kodomo){
+		int r=500*otona+200*kodomo;
+		System.out.println("大人"+otona+"人と子供"+kodomo+"人の合計料金は"+r+"円です");
+
+
+
+	}
+
+}

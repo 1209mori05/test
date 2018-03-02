@@ -1,0 +1,16 @@
+package sample_1;
+
+public class SampleTime {
+
+	public static void main(String[] args){
+	}
+
+		public static void twice(int n){
+			n=5;
+			System.out.println(n+"の2倍は"+n*2+"です");
+
+		}
+
+
+
+}

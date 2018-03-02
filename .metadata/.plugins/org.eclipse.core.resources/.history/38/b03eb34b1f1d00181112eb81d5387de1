@@ -1,0 +1,34 @@
+package sample_1;
+
+public class SampleTime {
+
+
+public static void main(String[] args){
+	Q1();
+	Q2();
+	}
+
+
+public static void Q1(){
+	for(int a=1; a<=5; a++){
+		for(int b=1; b<=a; b++){
+			System.out.print("★");
+		}System.out.println();
+	}
+}
+
+public static void Q2(){
+	for(int a=1; a<=5; a++){
+		for(int b=1; b<=5; b++){
+			if(a%2==0 && b%2==1){
+				System.out.print("☆");
+			}else{
+				System.out.print("★");
+			}
+		}System.out.println();
+	}
+}
+
+
+
+}

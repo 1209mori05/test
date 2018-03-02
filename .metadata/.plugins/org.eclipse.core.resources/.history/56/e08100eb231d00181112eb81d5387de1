@@ -1,0 +1,26 @@
+package sample_1;
+
+public class SampleTime {
+
+
+public static void main(String[] args){
+	int a=234567;
+	if(waru3(a)){
+		System.out.println("○");
+	}else{
+		System.out.println("×");
+	}
+}
+
+public static String waru3(int n){
+	String result="";
+	if(n%3==0){
+		result=n+"は3で割り切れます";
+	}else{
+		result=n+"は3で割り切れません";
+	}return result;
+}
+
+
+
+}

@@ -1,0 +1,19 @@
+package sample_1;
+
+public class SampleTime {
+
+
+public static void main(String[] args){
+	Q1();
+	}
+
+
+public static void Q1(){
+	for(int a=1; a<=5; a++){
+		for(int b=1; b<=a; b++){
+			System.out.print("★");
+		}System.out.println();
+}}
+
+
+}
