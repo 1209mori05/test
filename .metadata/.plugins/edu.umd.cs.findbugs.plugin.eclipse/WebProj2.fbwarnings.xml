@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="1" timestamp="1521002061543" analysisTimestamp="1521002047401" release="">
+  <Project projectName="WebProj2">
+    <Jar>C:\Users\internousdev\Desktop\workspace\workspace-mori\test\WebProj2\build\classes</Jar>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-mori\test\WebProj2\build\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\annotations-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina-ant.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina-ha.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina-storeconfig.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina-tribes.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\ecj-4.4.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\el-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\jasper-el.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\jasper.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\jsp-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\servlet-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-coyote.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-dbcp.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-i18n-es.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-i18n-fr.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-i18n-ja.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-jdbc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-jni.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-util-scan.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-util.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-websocket.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\websocket-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-mori\test\WebProj2\WebContent\WEB-INF\lib\commons-fileupload-1.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-mori\test\WebProj2\WebContent\WEB-INF\lib\commons-io-2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-mori\test\WebProj2\WebContent\WEB-INF\lib\commons-lang3-3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-mori\test\WebProj2\WebContent\WEB-INF\lib\commons-logging-1.1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-mori\test\WebProj2\WebContent\WEB-INF\lib\freemarker-2.3.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-mori\test\WebProj2\WebContent\WEB-INF\lib\javassist-3.11.0.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-mori\test\WebProj2\WebContent\WEB-INF\lib\mysql-connector-java-5.1.45-bin.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-mori\test\WebProj2\WebContent\WEB-INF\lib\ognl-3.0.21.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-mori\test\WebProj2\WebContent\WEB-INF\lib\struts2-core-2.3.34.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-mori\test\WebProj2\WebContent\WEB-INF\lib\xwork-core-2.3.34.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\java\8\jre\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\internousdev\Desktop\workspace\workspace-mori\test\WebProj2\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="com.internousdev.webproj2.dao.HelloStrutsDAO">
+      <SourceLine classname="com.internousdev.webproj2.dao.HelloStrutsDAO" sourcefile="HelloStrutsDAO.java" sourcepath="com/internousdev/webproj2/dao/HelloStrutsDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.webproj2.dao.HelloStrutsDAO" name="select" signature="()Z" isStatic="false">
+      <SourceLine classname="com.internousdev.webproj2.dao.HelloStrutsDAO" start="12" end="28" startBytecode="0" endBytecode="304" sourcefile="HelloStrutsDAO.java" sourcepath="com/internousdev/webproj2/dao/HelloStrutsDAO.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.HelloStrutsDAO" start="18" end="18" startBytecode="31" endBytecode="31" sourcefile="HelloStrutsDAO.java" sourcepath="com/internousdev/webproj2/dao/HelloStrutsDAO.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.HelloStrutsDAO" start="19" end="19" startBytecode="38" endBytecode="38" sourcefile="HelloStrutsDAO.java" sourcepath="com/internousdev/webproj2/dao/HelloStrutsDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.HelloStrutsDAO" start="25" end="25" startBytecode="60" endBytecode="60" sourcefile="HelloStrutsDAO.java" sourcepath="com/internousdev/webproj2/dao/HelloStrutsDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.HelloStrutsDAO" start="26" end="26" startBytecode="66" endBytecode="66" sourcefile="HelloStrutsDAO.java" sourcepath="com/internousdev/webproj2/dao/HelloStrutsDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.HelloStrutsDAO" start="28" end="28" startBytecode="76" endBytecode="76" sourcefile="HelloStrutsDAO.java" sourcepath="com/internousdev/webproj2/dao/HelloStrutsDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="com.internousdev.webproj2.dao.HelloStrutsDAO">
+      <SourceLine classname="com.internousdev.webproj2.dao.HelloStrutsDAO" sourcefile="HelloStrutsDAO.java" sourcepath="com/internousdev/webproj2/dao/HelloStrutsDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.webproj2.dao.HelloStrutsDAO" name="select" signature="()Z" isStatic="false">
+      <SourceLine classname="com.internousdev.webproj2.dao.HelloStrutsDAO" start="12" end="28" startBytecode="0" endBytecode="304" sourcefile="HelloStrutsDAO.java" sourcepath="com/internousdev/webproj2/dao/HelloStrutsDAO.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.HelloStrutsDAO" start="17" end="17" startBytecode="22" endBytecode="22" sourcefile="HelloStrutsDAO.java" sourcepath="com/internousdev/webproj2/dao/HelloStrutsDAO.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.HelloStrutsDAO" start="18" end="18" startBytecode="29" endBytecode="29" sourcefile="HelloStrutsDAO.java" sourcepath="com/internousdev/webproj2/dao/HelloStrutsDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.HelloStrutsDAO" start="19" end="19" startBytecode="38" endBytecode="38" sourcefile="HelloStrutsDAO.java" sourcepath="com/internousdev/webproj2/dao/HelloStrutsDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.HelloStrutsDAO" start="25" end="25" startBytecode="60" endBytecode="60" sourcefile="HelloStrutsDAO.java" sourcepath="com/internousdev/webproj2/dao/HelloStrutsDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.HelloStrutsDAO" start="26" end="26" startBytecode="66" endBytecode="66" sourcefile="HelloStrutsDAO.java" sourcepath="com/internousdev/webproj2/dao/HelloStrutsDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.HelloStrutsDAO" start="28" end="28" startBytecode="76" endBytecode="76" sourcefile="HelloStrutsDAO.java" sourcepath="com/internousdev/webproj2/dao/HelloStrutsDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="ODR_OPEN_DATABASE_RESOURCE" priority="2" rank="16" abbrev="ODR" category="BAD_PRACTICE" first="1">
+    <Class classname="com.internousdev.webproj2.dao.HelloStrutsDAO">
+      <SourceLine classname="com.internousdev.webproj2.dao.HelloStrutsDAO" sourcefile="HelloStrutsDAO.java" sourcepath="com/internousdev/webproj2/dao/HelloStrutsDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.webproj2.dao.HelloStrutsDAO" name="select" signature="()Z" isStatic="false">
+      <SourceLine classname="com.internousdev.webproj2.dao.HelloStrutsDAO" start="12" end="28" startBytecode="0" endBytecode="34" sourcefile="HelloStrutsDAO.java" sourcepath="com/internousdev/webproj2/dao/HelloStrutsDAO.java"/>
+    </Method>
+    <Type descriptor="Ljava/sql/PreparedStatement;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.sql.PreparedStatement" start="1265" end="1318" sourcefile="PreparedStatement.java" sourcepath="java/sql/PreparedStatement.java"/>
+    </Type>
+    <SourceLine classname="com.internousdev.webproj2.dao.HelloStrutsDAO" start="17" end="17" startBytecode="22" endBytecode="22" sourcefile="HelloStrutsDAO.java" sourcepath="com/internousdev/webproj2/dao/HelloStrutsDAO.java"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.HelloStrutsDAO" start="17" end="17" startBytecode="22" endBytecode="22" sourcefile="HelloStrutsDAO.java" sourcepath="com/internousdev/webproj2/dao/HelloStrutsDAO.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="com.internousdev.webproj2.dao.InquiryCompleteDAO">
+      <SourceLine classname="com.internousdev.webproj2.dao.InquiryCompleteDAO" sourcefile="InquiryCompleteDAO.java" sourcepath="com/internousdev/webproj2/dao/InquiryCompleteDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.webproj2.dao.InquiryCompleteDAO" name="insert" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I" isStatic="false">
+      <SourceLine classname="com.internousdev.webproj2.dao.InquiryCompleteDAO" start="12" end="34" startBytecode="0" endBytecode="416" sourcefile="InquiryCompleteDAO.java" sourcepath="com/internousdev/webproj2/dao/InquiryCompleteDAO.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.InquiryCompleteDAO" start="18" end="18" startBytecode="27" endBytecode="27" sourcefile="InquiryCompleteDAO.java" sourcepath="com/internousdev/webproj2/dao/InquiryCompleteDAO.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.InquiryCompleteDAO" start="19" end="19" startBytecode="34" endBytecode="34" sourcefile="InquiryCompleteDAO.java" sourcepath="com/internousdev/webproj2/dao/InquiryCompleteDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.InquiryCompleteDAO" start="20" end="20" startBytecode="43" endBytecode="43" sourcefile="InquiryCompleteDAO.java" sourcepath="com/internousdev/webproj2/dao/InquiryCompleteDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.InquiryCompleteDAO" start="21" end="21" startBytecode="52" endBytecode="52" sourcefile="InquiryCompleteDAO.java" sourcepath="com/internousdev/webproj2/dao/InquiryCompleteDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.InquiryCompleteDAO" start="22" end="22" startBytecode="61" endBytecode="61" sourcefile="InquiryCompleteDAO.java" sourcepath="com/internousdev/webproj2/dao/InquiryCompleteDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.InquiryCompleteDAO" start="23" end="23" startBytecode="70" endBytecode="70" sourcefile="InquiryCompleteDAO.java" sourcepath="com/internousdev/webproj2/dao/InquiryCompleteDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.InquiryCompleteDAO" start="30" end="30" startBytecode="115" endBytecode="115" sourcefile="InquiryCompleteDAO.java" sourcepath="com/internousdev/webproj2/dao/InquiryCompleteDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.InquiryCompleteDAO" start="31" end="31" startBytecode="122" endBytecode="122" sourcefile="InquiryCompleteDAO.java" sourcepath="com/internousdev/webproj2/dao/InquiryCompleteDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.InquiryCompleteDAO" start="34" end="34" startBytecode="132" endBytecode="132" sourcefile="InquiryCompleteDAO.java" sourcepath="com/internousdev/webproj2/dao/InquiryCompleteDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="ODR_OPEN_DATABASE_RESOURCE" priority="2" rank="16" abbrev="ODR" category="BAD_PRACTICE" first="1">
+    <Class classname="com.internousdev.webproj2.dao.InquiryCompleteDAO">
+      <SourceLine classname="com.internousdev.webproj2.dao.InquiryCompleteDAO" sourcefile="InquiryCompleteDAO.java" sourcepath="com/internousdev/webproj2/dao/InquiryCompleteDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.webproj2.dao.InquiryCompleteDAO" name="insert" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I" isStatic="false">
+      <SourceLine classname="com.internousdev.webproj2.dao.InquiryCompleteDAO" start="12" end="34" startBytecode="0" endBytecode="55" sourcefile="InquiryCompleteDAO.java" sourcepath="com/internousdev/webproj2/dao/InquiryCompleteDAO.java"/>
+    </Method>
+    <Type descriptor="Ljava/sql/PreparedStatement;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.sql.PreparedStatement" start="1265" end="1318" sourcefile="PreparedStatement.java" sourcepath="java/sql/PreparedStatement.java"/>
+    </Type>
+    <SourceLine classname="com.internousdev.webproj2.dao.InquiryCompleteDAO" start="18" end="18" startBytecode="27" endBytecode="27" sourcefile="InquiryCompleteDAO.java" sourcepath="com/internousdev/webproj2/dao/InquiryCompleteDAO.java"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.InquiryCompleteDAO" start="18" end="18" startBytecode="27" endBytecode="27" sourcefile="InquiryCompleteDAO.java" sourcepath="com/internousdev/webproj2/dao/InquiryCompleteDAO.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="com.internousdev.webproj2.dao.LoginDAO">
+      <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.webproj2.dao.LoginDAO" name="select" signature="(Ljava/lang/String;Ljava/lang/String;)Z" isStatic="false">
+      <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" start="15" end="36" startBytecode="0" endBytecode="395" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" start="23" end="23" startBytecode="53" endBytecode="53" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" start="24" end="24" startBytecode="60" endBytecode="60" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" start="32" end="32" startBytecode="108" endBytecode="108" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" start="33" end="33" startBytecode="115" endBytecode="115" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" start="36" end="36" startBytecode="125" endBytecode="125" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="com.internousdev.webproj2.dao.LoginDAO">
+      <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.webproj2.dao.LoginDAO" name="select" signature="(Ljava/lang/String;Ljava/lang/String;)Z" isStatic="false">
+      <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" start="15" end="36" startBytecode="0" endBytecode="395" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" start="20" end="20" startBytecode="26" endBytecode="26" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" start="21" end="21" startBytecode="33" endBytecode="33" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" start="22" end="22" startBytecode="42" endBytecode="42" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" start="23" end="23" startBytecode="51" endBytecode="51" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" start="24" end="24" startBytecode="60" endBytecode="60" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" start="32" end="32" startBytecode="108" endBytecode="108" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" start="33" end="33" startBytecode="115" endBytecode="115" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" start="36" end="36" startBytecode="125" endBytecode="125" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="ODR_OPEN_DATABASE_RESOURCE" priority="2" rank="16" abbrev="ODR" category="BAD_PRACTICE" first="1">
+    <Class classname="com.internousdev.webproj2.dao.LoginDAO">
+      <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.webproj2.dao.LoginDAO" name="select" signature="(Ljava/lang/String;Ljava/lang/String;)Z" isStatic="false">
+      <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" start="15" end="36" startBytecode="0" endBytecode="52" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java"/>
+    </Method>
+    <Type descriptor="Ljava/sql/PreparedStatement;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.sql.PreparedStatement" start="1265" end="1318" sourcefile="PreparedStatement.java" sourcepath="java/sql/PreparedStatement.java"/>
+    </Type>
+    <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" start="20" end="20" startBytecode="26" endBytecode="26" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" start="20" end="20" startBytecode="26" endBytecode="26" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="18" abbrev="UrF" category="STYLE" first="1">
+    <Class classname="com.internousdev.webproj2.dao.LoginDAO">
+      <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java"/>
+    </Class>
+    <Field classname="com.internousdev.webproj2.dao.LoginDAO" name="password" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java"/>
+    </Field>
+    <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" start="26" end="26" startBytecode="93" endBytecode="93" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="18" abbrev="UrF" category="STYLE" first="1">
+    <Class classname="com.internousdev.webproj2.dao.LoginDAO">
+      <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java"/>
+    </Class>
+    <Field classname="com.internousdev.webproj2.dao.LoginDAO" name="username" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java"/>
+    </Field>
+    <SourceLine classname="com.internousdev.webproj2.dao.LoginDAO" start="25" end="25" startBytecode="80" endBytecode="80" sourcefile="LoginDAO.java" sourcepath="com/internousdev/webproj2/dao/LoginDAO.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="com.internousdev.webproj2.dao.TestDAO">
+      <SourceLine classname="com.internousdev.webproj2.dao.TestDAO" sourcefile="TestDAO.java" sourcepath="com/internousdev/webproj2/dao/TestDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.webproj2.dao.TestDAO" name="insert" signature="(Ljava/lang/String;Ljava/lang/String;)I" isStatic="false">
+      <SourceLine classname="com.internousdev.webproj2.dao.TestDAO" start="11" end="32" startBytecode="0" endBytecode="380" sourcefile="TestDAO.java" sourcepath="com/internousdev/webproj2/dao/TestDAO.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.TestDAO" start="17" end="17" startBytecode="26" endBytecode="26" sourcefile="TestDAO.java" sourcepath="com/internousdev/webproj2/dao/TestDAO.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.TestDAO" start="18" end="18" startBytecode="33" endBytecode="33" sourcefile="TestDAO.java" sourcepath="com/internousdev/webproj2/dao/TestDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.TestDAO" start="19" end="19" startBytecode="42" endBytecode="42" sourcefile="TestDAO.java" sourcepath="com/internousdev/webproj2/dao/TestDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.TestDAO" start="20" end="20" startBytecode="51" endBytecode="51" sourcefile="TestDAO.java" sourcepath="com/internousdev/webproj2/dao/TestDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.TestDAO" start="21" end="21" startBytecode="60" endBytecode="60" sourcefile="TestDAO.java" sourcepath="com/internousdev/webproj2/dao/TestDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.TestDAO" start="27" end="27" startBytecode="101" endBytecode="101" sourcefile="TestDAO.java" sourcepath="com/internousdev/webproj2/dao/TestDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.TestDAO" start="28" end="28" startBytecode="108" endBytecode="108" sourcefile="TestDAO.java" sourcepath="com/internousdev/webproj2/dao/TestDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.TestDAO" start="32" end="32" startBytecode="118" endBytecode="118" sourcefile="TestDAO.java" sourcepath="com/internousdev/webproj2/dao/TestDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="ODR_OPEN_DATABASE_RESOURCE" priority="2" rank="16" abbrev="ODR" category="BAD_PRACTICE" first="1">
+    <Class classname="com.internousdev.webproj2.dao.TestDAO">
+      <SourceLine classname="com.internousdev.webproj2.dao.TestDAO" sourcefile="TestDAO.java" sourcepath="com/internousdev/webproj2/dao/TestDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.webproj2.dao.TestDAO" name="insert" signature="(Ljava/lang/String;Ljava/lang/String;)I" isStatic="false">
+      <SourceLine classname="com.internousdev.webproj2.dao.TestDAO" start="11" end="32" startBytecode="0" endBytecode="49" sourcefile="TestDAO.java" sourcepath="com/internousdev/webproj2/dao/TestDAO.java"/>
+    </Method>
+    <Type descriptor="Ljava/sql/PreparedStatement;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.sql.PreparedStatement" start="1265" end="1318" sourcefile="PreparedStatement.java" sourcepath="java/sql/PreparedStatement.java"/>
+    </Type>
+    <SourceLine classname="com.internousdev.webproj2.dao.TestDAO" start="17" end="17" startBytecode="26" endBytecode="26" sourcefile="TestDAO.java" sourcepath="com/internousdev/webproj2/dao/TestDAO.java"/>
+    <SourceLine classname="com.internousdev.webproj2.dao.TestDAO" start="17" end="17" startBytecode="26" endBytecode="26" sourcefile="TestDAO.java" sourcepath="com/internousdev/webproj2/dao/TestDAO.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 13 Mar 2018 17:50:50 +0900" total_classes="11" referenced_classes="47" total_bugs="12" total_size="194" num_packages="3" java_version="1.8.0_74" vm_version="25.74-b02" cpu_seconds="18.50" clock_seconds="14.15" peak_mbytes="731.28" alloc_mbytes="910.50" gc_seconds="0.17" priority_2="12">
+    <PackageStats package="com.internousdev.webproj2.action" total_bugs="0" total_types="6" total_size="89">
+      <ClassStats class="com.internousdev.webproj2.action.HelloStrutsAction" sourceFile="HelloStrutsAction.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="com.internousdev.webproj2.action.InquiryAction" sourceFile="InquiryAction.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.internousdev.webproj2.action.InquiryCompleteAction" sourceFile="InquiryCompleteAction.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="com.internousdev.webproj2.action.LoginAction" sourceFile="LoginAction.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="com.internousdev.webproj2.action.TestAction" sourceFile="TestAction.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="com.internousdev.webproj2.action.WelcomeAction" sourceFile="WelcomeAction.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.internousdev.webproj2.dao" total_bugs="12" total_types="4" total_size="84" priority_2="12">
+      <ClassStats class="com.internousdev.webproj2.dao.HelloStrutsDAO" sourceFile="HelloStrutsDAO.java" interface="false" size="18" bugs="3" priority_2="3"/>
+      <ClassStats class="com.internousdev.webproj2.dao.InquiryCompleteDAO" sourceFile="InquiryCompleteDAO.java" interface="false" size="22" bugs="2" priority_2="2"/>
+      <ClassStats class="com.internousdev.webproj2.dao.LoginDAO" sourceFile="LoginDAO.java" interface="false" size="24" bugs="5" priority_2="5"/>
+      <ClassStats class="com.internousdev.webproj2.dao.TestDAO" sourceFile="TestDAO.java" interface="false" size="20" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <PackageStats package="com.internousdev.webproj2.util" total_bugs="0" total_types="1" total_size="21">
+      <ClassStats class="com.internousdev.webproj2.util.DBConnector" sourceFile="DBConnector.java" interface="false" size="21" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="984" invocations="2" avgMicrosecondsPerInvocation="492046" maxMicrosecondsPerInvocation="807077" standardDeviationMircosecondsPerInvocation="315031"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="602" invocations="445" avgMicrosecondsPerInvocation="1354" maxMicrosecondsPerInvocation="115417" standardDeviationMircosecondsPerInvocation="7128"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="258" invocations="449" avgMicrosecondsPerInvocation="575" maxMicrosecondsPerInvocation="46948" standardDeviationMircosecondsPerInvocation="2751"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="142" invocations="166" avgMicrosecondsPerInvocation="859" maxMicrosecondsPerInvocation="60304" standardDeviationMircosecondsPerInvocation="4890"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="126" invocations="37" avgMicrosecondsPerInvocation="3421" maxMicrosecondsPerInvocation="118333" standardDeviationMircosecondsPerInvocation="19156"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="109" invocations="47" avgMicrosecondsPerInvocation="2334" maxMicrosecondsPerInvocation="21441" standardDeviationMircosecondsPerInvocation="4440"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="94" invocations="47" avgMicrosecondsPerInvocation="2020" maxMicrosecondsPerInvocation="12273" standardDeviationMircosecondsPerInvocation="3330"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="87" invocations="40" avgMicrosecondsPerInvocation="2194" maxMicrosecondsPerInvocation="52891" standardDeviationMircosecondsPerInvocation="8349"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="70" invocations="77" avgMicrosecondsPerInvocation="920" maxMicrosecondsPerInvocation="24874" standardDeviationMircosecondsPerInvocation="3129"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="61" invocations="40" avgMicrosecondsPerInvocation="1545" maxMicrosecondsPerInvocation="21712" standardDeviationMircosecondsPerInvocation="4398"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="49" invocations="37" avgMicrosecondsPerInvocation="1344" maxMicrosecondsPerInvocation="26842" standardDeviationMircosecondsPerInvocation="4389"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="49" invocations="47" avgMicrosecondsPerInvocation="1045" maxMicrosecondsPerInvocation="19328" standardDeviationMircosecondsPerInvocation="3250"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1521002061539" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,31 @@
+package com.internousdev.webproj.action;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class InquiryComplete extends ActionSupport{
+	private String name;
+	private String qtype;
+	private String body;
+
+	public String execute(){
+		return SUCCESS;
+	}
+	public String getqtype(){
+		return name;
+	}
+	public void setName(String name){
+		this.name=name;
+	}
+	public String getQuiry(){
+		return qtype;
+	}
+	public void setQury(String qtype){
+		this.qtype=qtype;
+	}
+	public String getbody(){
+		return body;
+	}
+	public void setBody(String body){
+		this.body=body;
+	}
+}

@@ -1,0 +1,16 @@
+package com.internousdev.webproj.action;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class InquiryComplete extends ActionSupport{
+	private String name;
+	private String qtype;
+	private String body;
+
+	puvlic String execute(){
+		return SUCCESS;
+	}
+	puvlic String getName(){
+		return name;
+	}
+}

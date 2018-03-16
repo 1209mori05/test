@@ -1,45 +1,29 @@
 
 public class Person {
 
+//フィールド(private)
 	private String name=null;
 	private int age=0;
-	//↑フィールド(private)
 
+//コンストラクタ
 	public Person(String name, int age){
 		this.name=name;
 		this.age=age;
 	}
-	//↑コンストラクタ
 
+//getterメソッド(読む用)
+//	呼び出し元にthis.name(そのインスタンスのname)を返す(戻す)
 	public String getName(){
 		return this.name;
-	}
-	//↑getterメソッド(読む用)
 
+	}
+
+//setterメソッド(書く用)
+//「void」戻り値なし(何も返さなくていい)
+
+//	呼び出し元がsetterで値を送って寄越したいだけなら、
+//	こちら側はなにも返す必要がない
 	public void setName(String name){
 		this.name=name;
 	}
-	//↑setterメソッド(書く用)
-
 }
-
-
-
-//	public class Person {
-
-//		public String name=null;
-//		public int age=0;
-//	}
-
-
-//	public class Capsule {
-//
-//			Person taro=new Person("山田太郎",20);
-//			System.out.println(taro.name);
-//		}
-//	}
-//
-//	エラー↑
-//	デフォルトコンストラクタは引数を持たないので、
-//	引数を持つインスタンスを作成するには
-//	それに合う引数のコンストラクタが必要。
