@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.inteernousdev.template.util;
+
+/**
+ * @author internousdev
+ *
+ */
+public class DBConnector {
+
+}
