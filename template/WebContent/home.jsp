@@ -70,7 +70,7 @@ pageEncoding="UTF-8"%>
 		<div id="pr"></div>
 	</div>
 
-	ECサイト初級ログイン認証3時間目 P22 LoginActionから
+
 
 </body>
 </html>
