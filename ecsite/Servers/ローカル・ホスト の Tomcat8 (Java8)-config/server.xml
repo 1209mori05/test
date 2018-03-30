@@ -124,7 +124,11 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
+<<<<<<< HEAD:.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/server.xml
+      <Context docBase="C:\Users\internousdev\Desktop\workspace\workspace-mori\test\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\internousdev\Desktop\workspace\workspace-mori\test\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ECsite" path="/ECsite" reloadable="true" source="org.eclipse.jst.jee.server:ECsite"/></Host>
+=======
       <Context docBase="ecsite" path="/ecsite" reloadable="false" source="org.eclipse.jst.jee.server:ecsite"/></Host>
+>>>>>>> 43bd36c95f9eddcbd49df58a915fb5f924e29a8e:ecsite/Servers/ローカル・ホスト の Tomcat8 (Java8)-config/server.xml
     </Engine>
   </Service>
 </Server>

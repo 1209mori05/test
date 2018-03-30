@@ -11,7 +11,7 @@
 	<meta http-equiv="imagetoolbar" content="no">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
-	<title>HOME画面</title>
+	<title>ログイン画面</title>
 	<style type="text/css">
 		body {
 			margin:0;
@@ -60,16 +60,21 @@
 	</div>
 	<div id="main">
 		<div id="top">
-			<p>HOME</p>
+			<p>Login</p>
 		</div>
-		<div id="text-center">
-			<s:form action="HomeAction">
-				<s:submit value="商品購入" />
-			</s:form>
-			<s:if test="#session.id != null">
-				<p>ログアウトする場合は
-					<a href='<s:url action="LogoutAction" />'>こちら</a></p>
-			</s:if>
+		<div>
+			<h3>商品を購入する際はログインをお願いします。</h3>
+			<s:form action="LoginAction">
+				<s:textfield name="loginUserId" />
+				<s:password name="loginPassword" />
+				<s:submit value="ログイン" />
+			</s:form><br>
+			<div id="text-link">
+				<p>新規ユーザー登録は
+					<a href='<s:url action="UserCreateAction" />'>こちら</a></p>
+				<p>Homeへ戻るには
+					<a href='<s:url action="GoHomeAction" />'>こちら</a></p>
+			</div>
 		</div>
 	</div>
 	<div id="footer">
